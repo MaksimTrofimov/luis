@@ -1,0 +1,74 @@
+@import url(media-queries.css);
+* {
+  padding: 0;
+  margin: 0; }
+
+.navbar-toggle {
+  border: 1px solid black; }
+  .navbar-toggle .icon-bar {
+    background-color: black; }
+
+header .navbar {
+  background-color: #dedede;
+  margin-bottom: 0; }
+  header .navbar .container {
+    padding-top: 10px;
+    padding-bottom: 30px; }
+    header .navbar .container .nav > li > a:focus, header .navbar .container .nav > li > a:hover {
+      background-color: transparent; }
+
+header .navbar a:focus, a:hover {
+  color: #4a5768;
+  text-decoration: none; }
+
+#bs-example-navbar-collapse-1 ul li a {
+  font-family: 'Asap', sans-serif;
+  font-size: 16px;
+  color: #4a5768;
+  font-weight: 400;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 15px;
+  margin-left: 15px; }
+  #bs-example-navbar-collapse-1 ul li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid;
+    border-color: #878787; }
+  #bs-example-navbar-collapse-1 ul li a:hover:after {
+    width: 100%;
+    margin-top: 8px; }
+
+.home {
+  background-color: #dedede; }
+  .home .container .row {
+    display: flex; }
+    .home .container .row .luis_text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 11%;
+      font-weight: 500; }
+      .home .container .row .luis_text h1 {
+        font-size: 90px;
+        margin-bottom: 0px; }
+      .home .container .row .luis_text h2 {
+        font-size: 22px; }
+    .home .container .row div {
+      margin-top: 30px; }
+      .home .container .row div a {
+        border: 1px solid #4d4d4d;
+        line-height: 50px;
+        display: inline-block;
+        width: 160px;
+        text-align: -webkit-center;
+        font-size: 16px;
+        color: #4a5768;
+        margin-right: 20px; }
+        .home .container .row div a:hover {
+          background-color: #fff; }
+      .home .container .row div img {
+        width: 100%; }
+
+/*# sourceMappingURL=style_preproc.css.map */
