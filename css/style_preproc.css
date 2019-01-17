@@ -1,8 +1,4 @@
 @import url(media-queries.css);
-* {
-  padding: 0;
-  margin: 0; }
-
 .navbar-toggle {
   border: 1px solid black; }
   .navbar-toggle .icon-bar {
@@ -45,15 +41,15 @@ header .navbar a:focus, a:hover {
   background-color: #dedede; }
   .home .container .row {
     display: flex; }
-    .home .container .row .luis_text {
+    .home .container .row .home_text {
       display: flex;
       flex-direction: column;
       margin-top: 11%;
       font-weight: 500; }
-      .home .container .row .luis_text h1 {
+      .home .container .row .home_text h1 {
         font-size: 90px;
         margin-bottom: 0px; }
-      .home .container .row .luis_text h2 {
+      .home .container .row .home_text h2 {
         font-size: 22px; }
     .home .container .row div {
       margin-top: 30px; }
@@ -70,5 +66,59 @@ header .navbar a:focus, a:hover {
           background-color: #fff; }
       .home .container .row div img {
         width: 100%; }
+
+.about .container .row {
+  display: flex;
+  margin-top: 110px;
+  margin-bottom: 125px; }
+  .about .container .row .about_text {
+    font-family: "Asap", sans-serif;
+    color: #717171; }
+    .about .container .row .about_text h2 {
+      font-weight: 700;
+      font-size: 46px;
+      margin-top: 90px;
+      margin-bottom: 15px;
+      display: inline-block;
+      letter-spacing: 6px; }
+      .about .container .row .about_text h2 span {
+        border-top: 4px solid;
+        border-color: #7a7a7a; }
+    .about .container .row .about_text p {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 35px; }
+    .about .container .row .about_text a {
+      border: 1px solid #4d4d4d;
+      line-height: 50px;
+      display: inline-block;
+      width: 160px;
+      text-align: -webkit-center;
+      font-size: 16px;
+      color: #4a5768;
+      margin-right: 20px; }
+      .about .container .row .about_text a:hover {
+        background-color: #e2e2e2; }
+  .about .container .row div img {
+    width: 100%; }
+
+.services {
+  background-color: #dedede; }
+  .services .container .row {
+    margin-top: 142px;
+    margin-bottom: 112px;
+    font-family: "Asap", sans-serif;
+    color: #717171; }
+    .services .container .row h2 {
+      text-align: center; }
+    .services .container .row div {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: center; }
+      .services .container .row div a {
+        align-items: center;
+        flex-direction: column;
+        display: flex; }
 
 /*# sourceMappingURL=style_preproc.css.map */
